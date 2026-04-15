@@ -24,5 +24,32 @@ console.log(pokemon);
 console.log(luckyNum);
 
 // Change the value stored in a var
-luckyNum = 15;
+luckyNum = 20;
 console.log(luckyNum);
+
+// MATH OPERATORS (+, -, *, /)
+let age = 15;
+console.log(age);
+let ageInTen = age + 10;
+console.log(ageInTen);
+let ageDogYears = age / 7;
+console.log(ageDogYears);
+let leoHumanYears = 5 * 7;
+console.log(leoHumanYears);
+
+// PEMDAS applies when you have multiple operators
+let score = 0;
+score = score + 8 - 9 / 21 * (4 + 6);
+console.log(score);
+
+// Combine 2 "literal" Strings (CONCATENATION)
+console.log("My age is " + "age");
+// OR concatenate a literal String with a VARIABLE
+console.log("My age is " + age);
+console.log("My age in 10 years will be " + ageInTen);
+console.log("My age in dog years is " + ageDogYears);
+
+// Can also concatenate while making variables
+let user = "Zach";
+let message = "Welcome " + user + "!";
+console.log(message)
