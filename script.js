@@ -53,3 +53,21 @@ console.log("My age in dog years is " + ageDogYears);
 let user = "Zach";
 let message = "Welcome " + user + "!";
 console.log(message)
+
+/* FUNCTIONS:
+    Reusable sets of code statements that perform a specific taks/process/routine
+*/
+
+// console.log is a built-in function we use 
+console.log("I just used a function")
+
+// DEFINE (create) your own function
+function prepareForSleep() {
+    // STATEMENTS (actions) to execute for this routine
+    console.log("1. Put on PJs");
+    console.log("2. Brush Teeth");
+    console.log("3. Read on my kindle");
+}
+
+// CALL (use) our function use its name
+prepareForSleep();
