@@ -71,3 +71,41 @@ function prepareForSleep() {
 
 // CALL (use) our function use its name
 prepareForSleep();
+
+/* Selection (CONDITIONALS) a BOOLEAN EXPRESSION is like a question that has a boolean (true/false) answer */
+
+console.log( 30 > 10 );
+console.log("Q: Is 10 less than 2");
+console.log( 10 < 2 );
+
+//Check for EQUALITY, use == (or ===)
+console.log(10 == 10);
+console.log(5 == 7);
+console.log (5 != 7); // NOT equal
+
+// Can use these operators to compare Strings
+console.log("Parrot" > "Dog"); // false, P comes after D in the dictionary order
+console.log("A" < "a"); // true
+console.log("ms. walter" == "Ms. Walter");
+
+//Can use comparison operators between VARIABLES and VALUES
+let password = "abc123!";
+console.log("abc123!" == password);
+
+// Make decisions using IF STATEMENTS
+let myAge = 15;
+
+if (myAge >= 17 ) {
+    // statements here only run if expression is TRUE
+    console.log("You are old enough to get your NY license");
+}
+
+//ELSE IF blocks test other options
+else if (myAge == 16) {
+    console.log("You can get your leaner's permit!")
+}
+
+//ELSE blocks handle the "otherwise..." case
+else {
+    console.log("Not eligible for a license");
+}
